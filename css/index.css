@@ -1,5 +1,22 @@
-#navbar-nav {
-    margin-left: auto;
-    text-align: right;
-    
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    background-image:url(/pic/pic1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+nav {
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+
 }
